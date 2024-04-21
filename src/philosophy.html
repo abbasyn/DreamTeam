@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>DreamTeam</title>
+  </head>
+  <body>
+    <!-- mobile md:opacity-100 opacity-0 md:flex z-[-1] menu -->
+
+    <div
+      class="fixed inset-0 bg-primrycolor z-10 transform -translate-x-full transition-transform duration-500"
+      id="mobile-menu"
+    >
+      <ion-icon
+        class="text-secondrycolor h-11 w-11 absolute right-0 top-0 mt-8 mr-3 lg:mr-24"
+        name="close-outline"
+        id="close-menu-btn"
+      ></ion-icon>
+      <!--Mobil Menu-->
+
+      <div class="container flex justify-center items-center">
+        <div class="py-8">
+          <a
+            ><img
+              class="h-10 block"
+              src="assests/img/home/dreamteam-logo 1.png"
+          /></a>
+        </div>
+      </div>
+
+      <div
+        class="container flex flex-col space-y-4 justify-between items-center"
+      >
+        <ul
+          class="text-white flex flex-col space-y-4 justify-between items-center"
+        >
+          <li class="mx-4 md:my-0">
+            <a href="#" class="text-xl hover:text-orange duration-500">
+              Home
+            </a>
+          </li>
+          <li class="mx-4 md:my-0">
+            <a href="kata.html" class="text-xl hover:text-orange duration-500">
+              kata
+            </a>
+          </li>
+          <li class="mx-4 md:my-0">
+            <a
+              href="philosophy.html"
+              class="text-xl hover:text-orange duration-500"
+            >
+              Philosophy
+            </a>
+          </li>
+          <li class="mx-4 md:my-0">
+            <a href="about.html" class="text-xl hover:text-orange duration-500">
+              About
+            </a>
+          </li>
+        </ul>
+        <button
+          class="bg-secondrycolor px-8 py-3 xxl:px-12 xxl:py-4 font-semibold border-2 transition-all border-secondrycolor hover:bg-transparent mt-8 text-lg uppercase text-black hover:text-secondrycolor home-hero-cta w-full"
+        >
+          Get Started
+        </button>
+      </div>
+    </div>
+
+    <div class="">
+      <header class="bg-herohomebg bg-center clipHero bg-no-repeat bg-cover">
+        <!--Small Screen Menu-->
+        <div class="container">
+          <nav class="py-8 relative">
+            <div class="flex justify-between items-center">
+              <span class="text-2xl fill-white font-poppins cursor-pointer">
+                <img
+                  class="h-10 inline"
+                  src="assests/img/home/dreamteam-logo 1.png"
+                />
+              </span>
+
+              <button
+                class="space-y-[5.5px] uppercase lg:block"
+                id="open-menu-btn"
+              >
+                <span
+                  class="w-[24px] h-[2.29px] bg-secondrycolor block transition-all"
+                  id="bar-one"
+                ></span>
+                <span
+                  class="w-[18px] h-[2.29px] ml-auto bg-secondrycolor block transition-all duration-1000"
+                  id="bar-two"
+                ></span>
+                <span
+                  class="w-[24px] h-[2.29px] bg-secondrycolor block transition-all duration-500"
+                  id="bar-three"
+                ></span>
+              </button>
+
+              <!-- <button>
+                  <ion-icon
+                  class="text-secondrycolor w-11 h-12"
+                  name="menu-outline"
+                  id="open-menu-btn"
+                ></ion-icon>
+              </button> -->
+            </div>
+          </nav>
+          <!--Hero Home page-->
+
+          <section class="py-6 text-white max-w-[500px]">
+            <h3 class="font-bold text-3xl leading-10 pb-6 mb-24">Philosophy</h3>
+          </section>
+        </div>
+      </header>
+
+      <main>
+        <div
+          class="bg-primrycolor w-[264px] p-11 rounded-lg mt-[-128px] relative z-2 m-auto mb-4"
+        >
+          <ul
+            class="space-y-5 py-4 text-xl text-orangecolor font-medium leading-7 list-disc list-inside"
+          >
+            <li><a>Introduction</a></li>
+            <li><a>Moving Fast</a></li>
+            <li><a>Staying Lean</a></li>
+          </ul>
+        </div>
+
+        <section class="bg-sectioncolor text-lg leading-7">
+          <div class="container">
+            <h3 class="font-semibold text-2xl leading-10">Introduction</h3>
+            <div class="mt-8 space-y-4 flex flex-col gap-4">
+              <div>
+                <p>
+                  At DreamTeam we believe there’s a lot of encumbered innovation
+                  pent-up in tech organizations. We’re on a mission to unleash
+                  it.
+                </p>
+
+                <p>
+                  Here are our ever-evolving learnings for organizations to move
+                  fast – more shots on goal – and stay lean: more shots per
+                  person – at any scale. There’s a lot of fluff and snake oil
+                  out there on ways teams can be more effective. We’ve found
+                  these lessons are repeatedly the most impactful, based on
+                  years of studying, partnering with, or working at companies
+                  like Shopify, Snap, Amazon, & Gusto.
+                </p>
+              </div>
+              <div><img src="assests/img/philosophy/production.svg" /></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="container">
+          <h3 class="font-semibold text-2xl">
+            Agile Is Dead! Long Live Agile? 🤷
+          </h3>
+          <p>
+            In a lot of ways Agile has really jumped the shark. Don’t take our
+            word for it though,ask one of its creators."The Agile Manifesto core
+            value of “Individuals and Interactions over Processes and Tools” ran
+            right into the SaaS-plosion we’re living in today. The rise of task
+            management masquerading as project management really did a number on
+            “Responding to Change over Following a Plan.” And then came the
+            frameworks. If you ask Google, there are more than 50 known Agile
+            Frameworks (SCRUM, KanBan, etc.), not to mention the new scaling
+            frameworks (SAFe, Scrum@Scale etc). We think it's high time to get
+            back to first principles – and that is what we advocate for here in
+            our anti-framework for Getting $#*! Done at Scale.
+          </p>
+
+          <h3 class="font-semibold text-2xl">
+            It’s About the Projects and People
+          </h3>
+          <p>
+            If we put the frameworks, goal methodologies, and task management
+            tools aside – what are we left with? At the core, we do projects.
+            And they’re done by a team of people. We have found that stripping
+            away the jargon and process, and focusing on getting really good at
+            the fundamentals, goes a long way toward improving productivity. In
+            this case, that means helping people get really good at executing
+            projects. In fact, that’s why we named our first product KATA.
+            Japanese for “form,” KATA is commonly used in martial arts to refer
+            to practicing fundamentals to achieve overall mastery. 👌
+          </p>
+        </section>
+
+        <section
+          class="bg-herohomebg bg-center pt-14 bg-no-repeat bg-cover text-sectioncolor"
+        >
+          <div class="container">
+            <div>
+              <div>
+                <h3 class="font-semibold text-2xl leading-10">Moving Fast</h3>
+                <p>
+                  Moving fast means not wasting effort, which allows for more
+                  shots on goal. Moving fast at scale means ensuring large
+                  groups of people are spending their effort on the highest
+                  value items – to do work that matters – in concert with one
+                  another, in complex systems. You don’t just need raw speed.
+                  You need velocity: speed AND direction. Otherwise you run the
+                  risk of going really quickly in the wrong direction(s) and
+                  ending up in the wrong place. This is where projects come in.
+                </p>
+              </div>
+
+              <div>
+                <h3 class="font-semibold text-2xl">
+                  We’re Playing Poker, Not Chess
+                </h3>
+                <p>
+                  Chess is a beautiful game of decision making and strategy, but
+                  it’s also one of clear rules and complete information. You can
+                  see the entire board all of the time. If you are a skilled
+                  player, there is little betting in chess. Victory and skill
+                  are closely correlated.
+                </p>
+
+                <p>
+                  As nice as that might sound, real life is never that
+                  straightforward. As Annie Duke states in her popular
+                  book,Thinking in Bets: Making Smarter Decisions When You Don't
+                  Have All the Facts
+                </p>
+                <p>
+                  Environments shift, information is incomplete, and there is no
+                  perfect way to play. Every decision becomes a bet. And
+                  projects are the bets organizations make. How we decide to
+                  apply our finite resources and people.
+                </p>
+                <p>
+                  When reframed as bets, you suddenly realize that projects
+                  can’t be approached as a fixed set of things to do, aka tasks,
+                  to achieve a known outcome. This is especially true in the
+                  case of software development. Instead, projects should be
+                  viewed as establishing a bet on a desired outcome, with
+                  recognition that you are in an ever-changing environment with
+                  incomplete information. Acknowledging this upfront lets the
+                  team see shortcuts and optimizations they’d otherwise miss in
+                  blind pursuit of task completion.
+                </p>
+              </div>
+              <div>
+                <img src="" />
+              </div>
+
+              <div>
+                <h3 class="font-semibold text-2xl leading-10">
+                  Focus on Outcomes, Not Outputs & Dates
+                </h3>
+                <p>
+                  The popularity of task management tools makes it easy to
+                  mistake speed for velocity. Look at all these tickets we are
+                  closing! But are we moving the needle on our business
+                  objectives? Are we having an impact for our customers?
+                </p>
+                <p>
+                  Focusing a project on achieving an outcome, rather than
+                  getting a bunch of tasks done, eliminates wasted effort. It
+                  gives your team the guidance, and the autonomy, they need to
+                  decide if a task is actually worth doing.
+                </p>
+
+                <p>
+                  When you focus on achieving an outcome, rather than meeting a
+                  (often poorly estimated) ship date, and pair it with thinking
+                  in bets, you are in a better position to assess tradeoffs and
+                  potential return on effort, or ROE. You can then match your
+                  appetite for investment with the potential outcomes, and place
+                  your bets (aka projects) accordingly.
+                </p>
+
+                <p>
+                  This is powerful. Not only will you save wasted effort and
+                  find shortcuts along your way, but it lets you say “no” to
+                  more projects upfront, avoiding even more wasted effort!
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container font-normal text-lg leading-7">
+            <div>
+              <img src="assests/img/philosophy/balance.svg" />
+              <h3 class="font-semibold text-2xl leading-10">ROE Not ROI</h3>
+              <p>
+                It's a subtle but important mental shift. ROI is a financial
+                term. But more often than not, we aren’t making financial
+                investments with projects. Instead, we’re allocating people’s
+                time and energy, which means we’re investing effort. So, Return
+                on Effort. Why does this distinction matter? Well, the math is
+                different. Sure, time is money and all that. But people are not
+                resources. When you invest $100 and want to double your
+                investment you invest $100 more. Asking people to work twice as
+                hard yields variable results. You may get more or less than
+                twice the effort depending on how you ask! And doubling the
+                people, well, projects don't work like that . If you remember
+                that we are making investment decisions not with algebra, but
+                multivariable calculus, it will go a long way into better
+                upfront decision making and appetite assessment.
+              </p>
+            </div>
+            <div>
+              <h3 class="font-semibold text-2xl leading-10">
+                But Still Dates (Milestones)
+              </h3>
+              <div>
+                <p>
+                  Parkinson’s Law tells us projects expand to fill the time
+                  they’re given. So projects MUST have a target ship date,
+                  right? Otherwise they go on forever?
+                </p>
+                <p>
+                  But we all recognize that projects evolve as they go. As we
+                  make progress, we gain new information, which alters our
+                  course. We rarely know the entire path forward when we start.
+                  But, we do know the concrete next step, or milestone, we are
+                  working towards. These milestones pull us closer to achieving
+                  our overall objectives.
+                </p>
+                <p>
+                  Tracking milestones keeps Parkinson’s Law at bay by tracking
+                  smaller, higher confidence, interim goals. This lets you
+                  subdivide the entropy for lower overall project risk, and have
+                  small victories that build confidence and momentum.
+                </p>
+              </div>
+              <div>
+                <p>
+                  The best way to write and set milestones is in the language of
+                  your project’s end users and what is being achieved or
+                  delivered. Not in task management terms “Tax Engine V2” but in
+                  project ones “Begin checkout completion rate test with new tax
+                  engine”. For product development, use product functionality
+                  language. For technical projects, use technical deliverables.
+                  This makes it simple for everyone to connect the goals of the
+                  project to the progress being made. For example, stating when
+                  a new feature will be complete or a target country launched,
+                  is more helpful than knowing that the “back-end is complete.”
+                </p>
+                <p>
+                  Status updates should then cover progress towards achieving
+                  both these milestones, as well as the overall project outcome.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="bg-primrycolor">
+        <div
+          class="container flex flex-col justify-center md:flex-row md:gap-10 items-center md:items-start py-11"
+        >
+          <img class="mb-6 p-4" src="assests/img/home/footer-logo1.png" />
+
+          <div
+            class="flex flex-col text-white md:flex-row justify-center gap-4 md:gap-12"
+          >
+            <div class="p-1 shrink-0">
+              <h3 class="font-semibold text-lg">Product</h3>
+              <ul>
+                <li>kata</li>
+                <li>Schedule a Demo</li>
+                <li>Pricing</li>
+              </ul>
+            </div>
+
+            <div class="p-1 shrink-0">
+              <h3 class="font-semibold text-lg">Resource</h3>
+              <ul>
+                <li>Resource Center</li>
+                <li>Contact Us</li>
+                <li>Help Center</li>
+              </ul>
+            </div>
+
+            <div class="p-1 shrink-0">
+              <h3 class="font-semibold text-lg">Company</h3>
+              <ul>
+                <li>About</li>
+                <li>Philosophy</li>
+                <li>Careers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      const mobileMenu = document.querySelector("#mobile-menu");
+      const mobileMenuBtn = document.querySelector("#open-menu-btn");
+      const closeMenu = document.querySelector("#close-menu-btn");
+
+      const barOne = document.querySelector("#bar-one");
+      const barTwo = document.querySelector("#bar-two");
+      const barThree = document.querySelector("#bar-three");
+      // mobileMenu.style.transform = "translateX(-100%)";
+
+      function mobileMenuHandler() {
+        mobileMenu.classList.toggle("-translate-x-full");
+
+        ["rotate-45", "scale-110", "duration-500"].map((cls) =>
+          barOne.classList.toggle(cls)
+        );
+
+        ["duration-1000", "hidden"].map((cls) => barTwo.classList.toggle(cls));
+
+        ["duration-500", "-rotate-45", "scale-110", "-translate-y-[7px]"].map(
+          (cls) => barThree.classList.toggle(cls)
+        );
+
+        barTwo.classList.toggle("opacity-0");
+
+        // mobileeMenu.classList.remove("-translate-x-full");
+        // mobileMenu.style.transform = "none";
+      }
+
+      mobileMenuBtn.addEventListener("click", mobileMenuHandler);
+      closeMenu.addEventListener("click", mobileMenuHandler);
+
+      mobileMenuBtn.classList.add();
+    </script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>DreamTeam</title>
+  </head>
+  <body>
+    <!-- mobile md:opacity-100 opacity-0 md:flex z-[-1] menu -->
+
+    <div
+      class="fixed inset-0 bg-primrycolor z-10 transform -translate-x-full transition-transform duration-500"
+      id="mobile-menu"
+    >
+      <ion-icon
+        class="text-secondrycolor h-11 w-11 absolute right-0 top-0 mt-8 mr-3 lg:mr-24"
+        name="close-outline"
+        id="close-menu-btn"
+      ></ion-icon>
+      <!--Mobil Menu-->
+
+      <div class="container flex justify-center items-center">
+        <div class="py-8">
+          <a
+            ><img
+              class="h-10 block"
+              src="assests/img/home/dreamteam-logo 1.png"
+          /></a>
+        </div>
+      </div>
+
+      <div
+        class="container flex flex-col space-y-4 justify-between items-center"
+      >
+        <ul
+          class="text-white flex flex-col space-y-4 justify-between items-center"
+        >
+          <li class="mx-4 md:my-0">
+            <a href="#" class="text-xl hover:text-orange duration-500">
+              Home
+            </a>
+          </li>
+          <li class="mx-4 md:my-0">
+            <a href="kata.html" class="text-xl hover:text-orange duration-500">
+              kata
+            </a>
+          </li>
+          <li class="mx-4 md:my-0">
+            <a
+              href="philosophy.html"
+              class="text-xl hover:text-orange duration-500"
+            >
+              Philosophy
+            </a>
+          </li>
+          <li class="mx-4 md:my-0">
+            <a href="about.html" class="text-xl hover:text-orange duration-500">
+              About
+            </a>
+          </li>
+        </ul>
+        <button
+          class="bg-secondrycolor px-8 py-3 xxl:px-12 xxl:py-4 font-semibold border-2 transition-all border-secondrycolor hover:bg-transparent mt-8 text-lg uppercase text-black hover:text-secondrycolor home-hero-cta w-full"
+        >
+          Get Started
+        </button>
+      </div>
+    </div>
+
+    <div class="">
+      <header class="bg-herohomebg bg-center clipHero bg-no-repeat bg-cover">
+        <!--Small Screen Menu-->
+        <div class="container">
+          <nav class="py-8 relative">
+            <div class="flex justify-between items-center">
+              <span class="text-2xl fill-white font-poppins cursor-pointer">
+                <img
+                  class="h-10 inline"
+                  src="assests/img/home/dreamteam-logo 1.png"
+                />
+              </span>
+
+              <button
+                class="space-y-[5.5px] uppercase lg:block"
+                id="open-menu-btn"
+              >
+                <span
+                  class="w-[24px] h-[2.29px] bg-secondrycolor block transition-all"
+                  id="bar-one"
+                ></span>
+                <span
+                  class="w-[18px] h-[2.29px] ml-auto bg-secondrycolor block transition-all duration-1000"
+                  id="bar-two"
+                ></span>
+                <span
+                  class="w-[24px] h-[2.29px] bg-secondrycolor block transition-all duration-500"
+                  id="bar-three"
+                ></span>
+              </button>
+
+              <!-- <button>
+                  <ion-icon
+                  class="text-secondrycolor w-11 h-12"
+                  name="menu-outline"
+                  id="open-menu-btn"
+                ></ion-icon>
+              </button> -->
+            </div>
+          </nav>
+          <!--Hero Home page-->
+
+          <section class="py-8 text-white max-w-[500px]">
+            <div class="pb-8">
+              <h1
+                class="font-bold text-3xl md:text-6xl md:leading-[83px] md:font-bold"
+              >
+                Ship
+                <span
+                  class="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-500"
+                  >outcomes</span
+                >, not slide decks
+              </h1>
+
+              <!-- #35B1D0
+              #26CD89 -->
+
+              <p class="mt-6 text-lg md:text-2xl leading-8">
+                More than ever, thriving teams need to be fast and lean, focused
+                on the work that really matters.
+              </p>
+              <button
+                class="bg-secondrycolor px-8 py-3 xxl:px-12 xxl:py-4 font-semibold border-2 transition-all border-secondrycolor hover:bg-transparent mt-8 text-lg uppercase text-black hover:text-white home-hero-cta"
+              >
+                learn more
+              </button>
+            </div>
+          </section>
+        </div>
+      </header>
+
+      <main>
+        <section class="bg-sectioncolor pt-24 -mt-16">
+          <div class="container">
+            <div class="flex flex-col justify-between items-center md:flex-row">
+              <div>
+                <div>
+                  <img src="assests/img/home/Maskgroup.png" />
+                </div>
+
+                <p class="mt-8 text-lg font-normal font-poppins">
+                  KATA is a single source of truth that cuts through all the
+                  noise, and lets people focus on the priorities that really
+                  matter.
+                </p>
+              </div>
+
+              <div>
+                <img src="assests/img/home/frame-kata-des.png" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-primrycolor relative overflow-hidden">
+          <img
+            class="absolute w-full left-0 opacity-60 -mt-16 top-[-70vw]"
+            src="assests/img/home/pattern.png"
+          />
+
+          <div class="container pt-36 pb-16">
+            <h2
+              class="text-white font-normal text-lg md:max-[600] md:text-2xl leading-9"
+            >
+              Let your teams do great work in their preferred tools.
+            </h2>
+            <img class="mt-10" src="assests/img/home/tools-des.svg" />
+          </div>
+          <img
+            class="bg-sectioncolor w-full bg-cover"
+            src="assests/img/home/clip-tools.svg"
+          />
+        </section>
+
+        <section class="bg-sectioncolor text-blackcolor">
+          <div
+            class="container flex flex-col justify-center items-center py-10 px-6"
+          >
+            <h4
+              class="max-w-[676px] text-center md:text-left font-normal text-lg leading-7 mb-4"
+            >
+              KATA gives leaders a dynamic, real-time overview of all projects,
+              disciplines, and effort.
+            </h4>
+            <img class="" src="assests/img/home/strategy.svg" />
+
+            <h4 class="text-center font-normal text-lg leading-7">
+              More than ever, employees value transparency, purpose, and instant
+              access to information.
+            </h4>
+          </div>
+        </section>
+
+        <section class="bg-primrycolor">
+          <div class="container">
+            <div class="flex flex-col items-center">
+              <h4
+                class="pt-14 pb-8 text-white text-center font-bold text-3xl md:text-5xl leading-8 mb-4"
+              >
+                Stay fast & lean at any scale
+              </h4>
+
+              <div>
+                <img src="assests/img/home/ProjectPage.png" />
+              </div>
+
+              <div
+                class="flex flex-col md:flex-row mt-8 justify-center gap-y-6 gap-x-4 items-center pb-24"
+              >
+                <div
+                  class="bg-sectioncolor max-w-[356px] flex flex-col px-8 py-6"
+                >
+                  <img class="w-12" src="assests/img/home/noun-challenge.png" />
+                  <h4 class="font-semibold text-lg leading-6 mb-4 mt-5">
+                    Return on Effort
+                  </h4>
+                  <p class="text-lg font-normal leading-7">
+                    For the first time, instantly see how much effort you’re
+                    investing in each project.
+                  </p>
+                </div>
+
+                <div
+                  class="bg-sectioncolor max-w-[356px] flex flex-col px-8 py-6"
+                >
+                  <img class="w-12" src="assests/img/home/noun-user.png" />
+                  <h4 class="font-semibold text-lg leading-6 mb-4 mt-5">
+                    Collaboration
+                  </h4>
+                  <p class="text-lg font-normal leading-7">
+                    Siloed teams see how their work fits into the larger
+                    business objectives.
+                  </p>
+                </div>
+
+                <div
+                  class="bg-sectioncolor max-w-[356px] flex flex-col px-8 py-6"
+                >
+                  <img class="w-12" src="assests/img/home/noun-bars.png" />
+                  <h4 class="font-semibold text-lg leading-6 mb-4 mt-5">
+                    Visibility
+                  </h4>
+                  <p class="text-lg font-normal leading-7">
+                    KATA merges accountability, efficiency, and vision for
+                    leaders and teams.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-sectioncolor">
+          <div
+            class="container flex flex-col justify-center items-center py-10"
+          >
+            <img class="w-12" src="assests/img/home/vector-shopify.png" />
+            <p class="italic text-lg px-4 leading-6 font-normal py-8">
+              At Shopify, we obsessed about staying fast as we grew. So much so
+              that we built our own internal tool to create a social protocol
+              for work. Everyone, from the intern to the CEO, used the same tool
+              to see who’s working on what and why. It made us 10x better. KATA
+              is the new, improved version of that tool. Now available for
+              everyone, and more deeply connected to the tools teams work in.
+            </p>
+            <h4 class="font-semibold text-lg text-center">
+              Jean-Michel Lemieux, former CTO at Shopify and VP Engineering at
+              Atlassian
+            </h4>
+            <div>
+              <img src="assests/img/home/shopify.svg" />
+            </div>
+            <img class="w-12 py-8" src="assests/img/home/vector-shopify2.png" />
+          </div>
+        </section>
+      </main>
+
+      <footer class="bg-primrycolor">
+        <div
+          class="container flex flex-col justify-center md:flex-row md:gap-10 items-center md:items-start py-11"
+        >
+          <img class="mb-6 p-4" src="assests/img/home/footer-logo1.png" />
+
+          <div
+            class="flex flex-col text-white md:flex-row justify-center gap-4 md:gap-12"
+          >
+            <div class="p-1 shrink-0">
+              <h3 class="font-semibold text-lg">Product</h3>
+              <ul>
+                <li>kata</li>
+                <li>Schedule a Demo</li>
+                <li>Pricing</li>
+              </ul>
+            </div>
+
+            <div class="p-1 shrink-0">
+              <h3 class="font-semibold text-lg">Resource</h3>
+              <ul>
+                <li>Resource Center</li>
+                <li>Contact Us</li>
+                <li>Help Center</li>
+              </ul>
+            </div>
+
+            <div class="p-1 shrink-0">
+              <h3 class="font-semibold text-lg">Company</h3>
+              <ul>
+                <li>About</li>
+                <li>Philosophy</li>
+                <li>Careers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      const mobileMenu = document.querySelector("#mobile-menu");
+      const mobileMenuBtn = document.querySelector("#open-menu-btn");
+      const closeMenu = document.querySelector("#close-menu-btn");
+
+      const barOne = document.querySelector("#bar-one");
+      const barTwo = document.querySelector("#bar-two");
+      const barThree = document.querySelector("#bar-three");
+      // mobileMenu.style.transform = "translateX(-100%)";
+
+      function mobileMenuHandler() {
+        mobileMenu.classList.toggle("-translate-x-full");
+
+        ["rotate-45", "scale-110", "duration-500"].map((cls) =>
+          barOne.classList.toggle(cls)
+        );
+
+        ["duration-1000", "hidden"].map((cls) => barTwo.classList.toggle(cls));
+
+        ["duration-500", "-rotate-45", "scale-110", "-translate-y-[7px]"].map(
+          (cls) => barThree.classList.toggle(cls)
+        );
+
+        barTwo.classList.toggle("opacity-0");
+
+        // mobileeMenu.classList.remove("-translate-x-full");
+        // mobileMenu.style.transform = "none";
+      }
+
+      mobileMenuBtn.addEventListener("click", mobileMenuHandler);
+      closeMenu.addEventListener("click", mobileMenuHandler);
+
+      mobileMenuBtn.classList.add();
+    </script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

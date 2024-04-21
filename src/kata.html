@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>DreamTeam</title>
+  </head>
+  <body>
+    <!-- mobile md:opacity-100 opacity-0 md:flex z-[-1] menu -->
+
+    <div
+      class="container fixed inset-0 bg-primrycolor z-10 transform -translate-x-full transition-transform duration-500"
+      id="mobile-menu"
+    >
+      <ion-icon
+        class="text-secondrycolor h-11 w-11 absolute right-0 top-0 mt-8 mr-3"
+        name="close-outline"
+        id="close-menu-btn"
+      ></ion-icon>
+      <!--Mobil Menu-->
+
+      <div class="container flex justify-center items-center">
+        <div class="py-8">
+          <a
+            ><img
+              class="h-10 block"
+              src="assests/img/home/dreamteam-logo 1.png"
+          /></a>
+        </div>
+      </div>
+
+      <div
+        class="container flex flex-col space-y-4 justify-between items-center"
+      >
+        <ul
+          class="text-white flex flex-col space-y-4 justify-between items-center"
+        >
+          <li class="mx-4 md:my-0">
+            <a href="index.html" class="text-xl hover:text-orange duration-500">
+              Home
+            </a>
+          </li>
+          <li class="mx-4 md:my-0">
+            <a href="kata.html" class="text-xl hover:text-orange duration-500">
+              kata
+            </a>
+          </li>
+          <li class="mx-4 md:my-0">
+            <a
+              href="philossphy.html"
+              class="text-xl hover:text-orange duration-500"
+            >
+              Philosophy
+            </a>
+          </li>
+          <li class="mx-4 md:my-0">
+            <a href="about.html" class="text-xl hover:text-orange duration-500">
+              About
+            </a>
+          </li>
+        </ul>
+        <button
+          class="bg-secondrycolor px-8 py-3 xxl:px-12 xxl:py-4 font-semibold border-2 transition-all border-secondrycolor hover:bg-transparent mt-8 text-lg uppercase text-black hover:text-secondrycolor home-hero-cta w-full"
+        >
+          Get Started
+        </button>
+      </div>
+    </div>
+
+    <div class="">
+      <header
+        class="bg-herokatabg md:clipHero bg-no-repeat bg-center opacity-150 bg-cover"
+      >
+        <!--Small Screen Menu-->
+        <div class="container">
+          <nav class="py-8 relative">
+            <div class="flex justify-between items-center">
+              <span class="text-2xl fill-white font-poppins cursor-pointer">
+                <img
+                  class="h-10 inline"
+                  src="assests/img/home/dreamteam-logo 1.png"
+                />
+              </span>
+
+              <button
+                class="space-y-[5.5px] uppercase lg:block"
+                id="open-menu-btn"
+              >
+                <span
+                  class="w-[24px] h-[2.29px] bg-secondrycolor block transition-all"
+                  id="bar-one"
+                ></span>
+                <span
+                  class="w-[18px] h-[2.29px] ml-auto bg-secondrycolor block transition-all duration-1000"
+                  id="bar-two"
+                ></span>
+                <span
+                  class="w-[24px] h-[2.29px] bg-secondrycolor block transition-all duration-500"
+                  id="bar-three"
+                ></span>
+              </button>
+
+              <!-- <button>
+                  <ion-icon
+                  class="text-secondrycolor w-11 h-12"
+                  name="menu-outline"
+                  id="open-menu-btn"
+                ></ion-icon>
+              </button> -->
+            </div>
+          </nav>
+          <!--Hero Home page-->
+
+          <section class="pt-8 text-white max-w-[500px]">
+            <div class="pb-14">
+              <h1 class="font-bold text-3xl">
+                Visibility + alignment drives
+                <span
+                  class="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-500"
+                  >velocity</span
+                >
+              </h1>
+
+              <!-- #35B1D0
+              #26CD89 -->
+
+              <p class="mt-6 text-lg">
+                Information flow is broken. Task management lacks strategy. KATA
+                solves for the disconnect between the plan and reality.
+              </p>
+              <div class="mt-8">
+                <img src="assests/img/kata/kata-project.png" />
+              </div>
+            </div>
+          </section>
+        </div>
+      </header>
+
+      <main>
+        <section class="pt-8 pb-4 md:-mt-16">
+          <div class="bg-smkatapattern bg-cover bg-center bg-no-repeat">
+            <div class="">
+              <div
+                class="flex flex-col justify-between items-center md:flex-row"
+              >
+                <div class="container text-center">
+                  <p
+                    class="mt-8 pb-4 text-3xl leading-10 font-bold font-poppins text-blackcolor"
+                  >
+                    We have an
+                    <span class="text-orangecolor">effectiveness shortage</span
+                    >, not a talent shortage
+                  </p>
+                  <div class="pb-8">
+                    <img class="" src="assests/img/kata/video.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="bg-katasecbgdes bg-cover bg-center bg-no-repeat overflow-hidden"
+        >
+          <div class="container pt-8 pb-16 text-white">
+            <div class="">
+              <h4 class="py-3 font-extrabold leading-10 text-3xl text-center">
+                Make the right bets, on the right projects.
+              </h4>
+
+              <!-- section 1  -->
+              <div
+                class="flex flex-col justify-center items-center md:flex-row-reverse md:gap-20 space-y-4 pb-8"
+              >
+                <div class="flex flex-col gap-4">
+                  <img class="w-16 h-16" src="assests/img/kata/clarity.svg" />
+                  <h4>Catch trends early</h4>
+                  <p>
+                    Visualizations of project workstreams, activity, and
+                    milestones help you flag potential issues and hold more
+                    effective retros.
+                  </p>
+                </div>
+                <img src="assests/img/kata/kata-proj-1.svg" />
+              </div>
+
+              <!-- section 2  -->
+              <div
+                class="flex flex-col justify-center items-center md:flex-row md:gap-20 space-y-4 pb-8"
+              >
+                <div class="flex flex-col gap-4">
+                  <img class="w-16 h-16" src="assests/img/kata/organic.svg" />
+                  <h4>Catch trends early</h4>
+                  <p>
+                    Visualizations of project workstreams, activity, and
+                    milestones help you flag potential issues and hold more
+                    effective retros.
+                  </p>
+                </div>
+                <img src="assests/img/kata/kata-proj-2.svg" />
+              </div>
+
+              <!-- section 3  -->
+              <div
+                class="flex flex-col justify-center items-center md:flex-row-reverse md:gap-20 space-y-4 pb-8"
+              >
+                <div class="flex flex-col gap-4">
+                  <img class="w-16 h-16" src="assests/img/kata/drive.svg" />
+                  <h4>Catch trends early</h4>
+                  <p>
+                    Visualizations of project workstreams, activity, and
+                    milestones help you flag potential issues and hold more
+                    effective retros.
+                  </p>
+                </div>
+
+                <img src="assests/img/kata/kata-proj-3.svg" />
+              </div>
+
+              <!-- section 4  -->
+              <div
+                class="flex flex-col justify-center items-center md:flex-row md:gap-20 space-y-4 pb-8"
+              >
+                <div class="flex flex-col gap-4">
+                  <img class="w-16 h-16" src="assests/img/kata/stop.svg" />
+                  <h4>Catch trends early</h4>
+                  <p>
+                    Visualizations of project workstreams, activity, and
+                    milestones help you flag potential issues and hold more
+                    effective retros.
+                  </p>
+                </div>
+
+                <img src="assests/img/kata/kata-proj-4.svg" />
+              </div>
+
+              <!-- section 5  -->
+
+              <img src="assests/img/kata/workflow.png" />
+
+              <!-- section 6  -->
+              <div
+                class="flex flex-col md:flex-row justify-center items-center"
+              >
+                <div
+                  class="flex flex-col space-y-4 pb-8 md:justify-center md:items-center"
+                >
+                  <img class="w-16 h-16" src="assests/img/kata/across.svg" />
+                  <h4>Catch trends early</h4>
+                  <p class="lg:max-w-lg p-4">
+                    Visualizations of project workstreams, activity, and
+                    milestones help you flag potential issues and hold more
+                    effective retros.
+                  </p>
+                </div>
+                <!-- section 7  -->
+                <div
+                  class="flex flex-col space-y-4 pb-8 md:justify-center md:items-center"
+                >
+                  <img class="w-16 h-16" src="assests/img/kata/surface.svg" />
+                  <h4>Catch trends early</h4>
+                  <p class="lg:max-w-lg p-4">
+                    Visualizations of project workstreams, activity, and
+                    milestones help you flag potential issues and hold more
+                    effective retros.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-sectioncolor">
+          <div
+            class="container flex flex-col justify-center items-center py-10"
+          >
+            <img class="w-12" src="assests/img/home/vector-shopify.png" />
+            <p class="italic text-lg px-4 leading-6 font-normal py-8">
+              It’s all about alignment. At Grafana Labs, we strongly believe in
+              autonomy; our teams are executing well but in different ways. KATA
+              enables us to have visibility across our teams regardless of their
+              tools and processes. Better visibility keeps our execution and
+              strategy aligned
+            </p>
+            <h4 class="font-semibold text-lg text-center">
+              Marc Chipouras, Senior Director of Engineering at Grafana Labs
+            </h4>
+            <div>
+              <img src="assests/img/kata/Grafana_logo .svg" />
+            </div>
+            <img class="w-12 py-8" src="assests/img/home/vector-shopify2.png" />
+          </div>
+        </section>
+      </main>
+
+      <footer class="bg-primrycolor">
+        <div class="container flex flex-col justify-center items-center py-11">
+          <img src="assests/img/home/footer-logo1.png" />
+
+          <div
+            class="flex flex-col text-white md:flex-row justify-center items-start gap-4 pt-8"
+          >
+            <div class="">
+              <h1>Product</h1>
+              <ul>
+                <li>kata</li>
+                <li>Schedule a Demo</li>
+                <li>Pricing</li>
+              </ul>
+            </div>
+
+            <div>
+              <h1>Resource</h1>
+              <ul>
+                <li>Resource Center</li>
+                <li>Contact Us</li>
+                <li>Help Center</li>
+              </ul>
+            </div>
+
+            <div>
+              <h1>Company</h1>
+              <ul>
+                <li>About</li>
+                <li>Philosophy</li>
+                <li>Careers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      const mobileMenu = document.querySelector("#mobile-menu");
+      const mobileMenuBtn = document.querySelector("#open-menu-btn");
+      const closeMenu = document.querySelector("#close-menu-btn");
+
+      const barOne = document.querySelector("#bar-one");
+      const barTwo = document.querySelector("#bar-two");
+      const barThree = document.querySelector("#bar-three");
+      // mobileMenu.style.transform = "translateX(-100%)";
+
+      function mobileMenuHandler() {
+        mobileMenu.classList.toggle("-translate-x-full");
+        ["rotate-45", "scale-110", "duration-500"].map((cls) =>
+          barOne.classList.toggle(cls)
+        );
+        ["duration-1000", "hidden"].map((cls) => barTwo.classList.toggle(cls));
+        ["duration-500", "-rotate-45", "scale-110", "-translate-y-[7px]"].map(
+          (cls) => barThree.classList.toggle(cls)
+        );
+        barTwo.classList.toggle("opacity-0");
+
+        // mobileeMenu.classList.remove("-translate-x-full");
+        // mobileMenu.style.transform = "none";
+      }
+
+      mobileMenuBtn.addEventListener("click", mobileMenuHandler);
+      closeMenu.addEventListener("click", mobileMenuHandler);
+
+      mobileMenuBtn.classList.add();
+    </script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
